@@ -9,7 +9,7 @@ Change working directory to /myapp
 
 
 **Add a new Resident by inputting:** *python manage.py residents%20--add_resident
-![alt text](https://raw.githubusercontent.com/WhoNeedsKrilin/django-cli-example/master/assets/images/to/1.0%20--add_resident.png)
+![](assets/images/1.0%20--add_resident.png)
 
 
 **View Residents by inputting:** *python manage.py residents --view_people
