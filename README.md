@@ -40,10 +40,10 @@ Enter the last name of the Resident you want to retrieve.
 
 ![](assets/images/8.2%20Smith_last_name.png)
 
-**View Residents that are updated within a day by inputting:** *python.manage.py residents --get_resident_updated_today
+**View Residents that are updated within a day by inputting:** *python.manage.py residents --get_resident_updated_today*
 ![](assets/images/9.%20Updated_today.png)
 
-**View Residents that are created within a day by inputting:** *python.manage.py residents --get_new_residents
+**View Residents that are created within a day by inputting:** *python.manage.py residents --get_new_residents*
 ![](assets/images/10.Get_new_residents.png)
 
 
