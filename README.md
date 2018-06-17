@@ -1,20 +1,20 @@
 # Django simple CRUD CLI
 
 ## Description:
-**Perform Create, Read, Update, and Delete Resident's details using this simple app and execute custom commands via command line interface.
+**Perform Create, Read, Update, and Delete Resident's details using this simple app and execute custom commands via command line interface.**
 
 ## Usage:
 
 Change working directory to /myapp
 
 
-**Add a new Resident by inputting:** *python manage.py residents%20--add_resident
+**Add a new Resident by inputting:** *python manage.py residents --add_resident
 ![](assets/images/1.0%20--add_resident.png)
 
 
 **View Residents by inputting:** *python manage.py residents --view_people
-![alt text](https://raw.githubusercontent.com/WhoNeedsKrilin/django-cli-example/master/assets/images/to/2. --view_people.png)
-![alt text](https://raw.githubusercontent.com/WhoNeedsKrilin/django-cli-example/master/assets/images/to/3. --view_people.png)
+![](assets/images//2. --view_people.png)
+![](assets/images/3. --view_people.png)
 
 "Choose Resident's name: " prompt will appear and you can enter the Resident's name to direct you to 'action' prompt.
 
