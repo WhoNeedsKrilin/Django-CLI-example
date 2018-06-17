@@ -148,12 +148,13 @@ class Command(BaseCommand):
            
             lname = str(input("Enter Resident's last name: "))
             try:
-                ud_by_last_name = Resident.objects.get(last_name=lname)
-                # print(search_by_last_name.address)
-                print('---- List of Residents ----')
-                print('\n    Full Name     |         Address         |   Date Joined   \n')
-                print(str(search_by_last_name)+' | '+str(search_by_last_name.address.street)+' '+str(search_by_last_name.address.baranggay)+' '+str(search_by_last_name.address)+' | '+str(search_by_last_name.date_created.strftime('%m/%d/%y')))
-                print('\n\n---------------------------------------------------------------- ')
+                ud_by_last_name = Resident.objects.filter(last_name=lname)
+                for resident in ud_by_last_name:
+                    print(resident)
+                    print('---- List of Residents ----')
+                    print('\n    Full Name     |         Address         |   Date Joined   \n')
+                    print(str(resident)+' | '+str(resident.address.street)+' '+str(resident.address.baranggay)+' '+str(resident.address)+' | '+str(resident.date_created.strftime('%m/%d/%y')))
+                    print('\n\n---------------------------------------------------------------- ')
             except:
                 raise CommandError('No residents like that!')
 
