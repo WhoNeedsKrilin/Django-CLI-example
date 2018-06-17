@@ -8,11 +8,11 @@
 Change working directory to /myapp
 
 
-**Add a new Resident by inputting:** *python manage.py residents --add_resident
+**Add a new Resident by inputting:** python manage.py residents --add_resident
 ![](assets/images/1.0%20--add_resident.png)
 
 
-**View Residents by inputting:** *python manage.py residents --view_people
+**View Residents by inputting:** python manage.py residents --view_people
 ![](assets/images//2.%20--view_people.png)
 ![](assets/images/3.%20--view_people.png)
 
@@ -23,7 +23,7 @@ An Action prompt will let you **Update** or **Delete** a Resident's data. You ca
 "Choose Resident's name: " prompt will appear and you can enter the Resident's name to direct you to 'action' prompt.
 ![](assets/images/3 Action.png)
 
-**Update Resident by inputting:** *x
+**Update Resident by inputting:** x
 ![](assets/images/4.0%20Action.png)
 
 Enter the details you want to update.
@@ -32,7 +32,7 @@ Enter the details you want to update.
 **Delete Redident by inputting:** Assumming that you're at  "--view_people" again, Enter a Resident's name and by this time input "d" key to delete a Resident record.
 ![](assets/images/6.1%20Deleting%20success.png)
 
-**Get Resident by last name by inputting:** *python manage.py residents --get_resident_by_last_name
+**Get Resident by last name by inputting:** python manage.py residents --get_resident_by_last_name
 ![](assets/images/8.0%20get_resident_by%20last_name.png)
 
 Enter the last name of the Resident you want to retrieve.
