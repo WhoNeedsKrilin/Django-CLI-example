@@ -30,10 +30,10 @@ Enter the details you want to update.
 ![](assets/images/4.3%20Updating.png)
 
 **Delete Redident by inputting:** Assumming that you're at  "--view_people" again, Enter a Resident's name and by this time input "d" key to delete a Resident record.
-![](assets/images/6.1%20Deleting success.png)
+![](assets/images/6.1%20Deleting%20success.png)
 
 **Get Resident by last name by inputting:** *python manage.py residents --get_resident_by_last_name
-![](assets/images/8.0%20get_resident_by last_name.png)
+![](assets/images/8.0%20get_resident_by%20last_name.png)
 
 Enter the last name of the Resident you want to retrieve.
 ![](assets/images/8.1%20get_sresitdentbylastname)
